@@ -2,4 +2,6 @@
   width: 100%;
   z-index: 0;
   display: block;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
 }

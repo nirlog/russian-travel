@@ -3,7 +3,8 @@
   height: 100%;
   background: #2A2C2F;
   opacity: 0.3;
-  position: absolute;
   z-index: 1;
   transition: opacity 0.5s ease;
+  grid-column: 1/-1;
+  grid-row: 1/-1;
 }

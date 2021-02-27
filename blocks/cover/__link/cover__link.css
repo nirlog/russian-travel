@@ -1,7 +1,10 @@
 .cover__link {
   position: relative;
-  display: block;
   text-decoration: none;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+
 }
 
 .cover__link:hover > .cover__overlay {

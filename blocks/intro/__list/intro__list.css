@@ -2,4 +2,9 @@
   max-width: 690px;
   margin:0;
   padding-top: 33px;
+  padding-left: 0;
+  list-style: none;
+  font-size: 12px;
+  line-height: 18px;
+  color: #FFFFFF;
 }
