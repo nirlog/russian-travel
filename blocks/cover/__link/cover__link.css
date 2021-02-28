@@ -2,11 +2,9 @@
   position: relative;
   text-decoration: none;
   display: grid;
+  justify-content: center;
+  align-items: center;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
 
-}
-
-.cover__link:hover > .cover__overlay {
-  opacity: 0.8;
 }

@@ -14,18 +14,24 @@
     <a href="/" class="header__logo" target="_self">
       <img class="header__logo" src="./images/header-logo.svg" alt="Логотип Россия">
     </a>
-    <div class="header__lang">
-      <a href="#ru" class="header__lang-link header__lang-link_active" target="_self">Ru</a>
-      <a href="#en" class="header__lang-link" target="_self">En</a>
-    </div>
+    <ul class="header__lang">
+      <li class="header__lang-item">
+        <a href="#ru" class="header__lang-link header__lang-link_active" target="_self">Ru</a>
+      </li>
+      <li class="header__lang-item">
+        <a href="#en" class="header__lang-link" target="_self">En</a>
+      </li>
+    </ul>
   </header>
   <main>
     <section class="lead">
       <h1 class="lead__title">Путешествия по России</h1>
-      <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-      <img class="lead__image" src="./images/lead-polka.jpg"
+      <h2 class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</h2>
+      <figure class="lead__figure">
+        <img class="lead__image" src="./images/lead-polka.jpg"
         alt="Фотография вида из окна вагона с наложенной поверх картой маршрута">
-      <p class="lead__caption">ваша полка — верхняя</p>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+      </figure>
     </section>
 
     <section class="intro">
@@ -60,61 +66,62 @@
         </li>
       </ul>
     </section>
-    <ul class="photo-grid">
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы с высоты облаков">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg"
-          alt="Рассвет. Поле с тюками сена, накрытое туманом.
-          Одинокая овчарка стоит на тюке сена и с пустым взглядом смотрит в даль, пытаясь осознать тщетность бытия.
-          Печаль.">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Туманный лес с высоты птичьего полета">
-      </li>
 
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Автобиль припаркованный на льду">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg"
-          alt="Прилив на песчаном берегу Байкала, на фоне гор">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg"
-          alt="Фотография заснеженных вершин Эльбруса">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg"
-          alt="Знак пешеходного перехода, а на фоне много какой-то фигни, похожей на бетонные конусы">
-      </li>
+    <section class="photo-grid">
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-train.jpg" alt="Вид из окна поезда">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-atharva-tulsi.jpg" alt="Вид на горы с высоты облаков">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-tuman.jpg"
+            alt="Рассвет. Поле с тюками сена, накрытое туманом.
+            Одинокая овчарка стоит на тюке сена и с пустым взглядом смотрит в даль, пытаясь осознать тщетность бытия.
+            Печаль.">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-sochi.jpg" alt="Туманный лес с высоты птичьего полета">
+        </div>
 
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg"
-          alt="Фотография кгорной местности на Камчатке">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg"
-          alt="Фотография горы на Камчатке, сделанная с ровнины">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg"
-          alt="Берег Байкала и спуск с возвышенности">
-      </li>
-      <li class="photo-grid__item">
-        <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Очередные горы и туман">
-      </li>
-    </ul>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-arisa.jpg" alt="Автобиль припаркованный на льду">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-baikal.jpg"
+            alt="Прилив на песчаном берегу Байкала, на фоне гор">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-elbrus.jpg"
+            alt="Фотография заснеженных вершин Эльбруса">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-kondratiev.jpg"
+            alt="Знак пешеходного перехода, а на фоне много какой-то фигни, похожей на бетонные конусы">
+        </div>
 
-    <div class="places">
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-kamchatka-1.jpg"
+            alt="Фотография кгорной местности на Камчатке">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-kamchatka-2.jpg"
+            alt="Фотография горы на Камчатке, сделанная с ровнины">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-baikal-2.jpg"
+            alt="Берег Байкала и спуск с возвышенности">
+        </div>
+        <div class="photo-grid__item">
+          <img class="photo-grid__image" src="./images/photo-grid-ergaki.jpg" alt="Очередные горы и туман">
+        </div>
+    </section>
+
+    <section class="places">
       <article class="place">
         <h3 class="place__title">Куршская коса</h3>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
         </div>
         <img class="place__image" src="./images/place-kosa.jpg" alt="Куршская коса">
@@ -136,7 +143,7 @@
       <article class="place">
         <h3 class="place__title">Кольский</h3>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
             target="_blank">National Geographic</a>
         </div>
@@ -159,7 +166,7 @@
       <article class="place">
         <h3 class="place__title">Алтай</h3>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822"
             target="_blank">Facebook</a>
         </div>
@@ -183,7 +190,7 @@
       <article class="place">
         <h3 class="place__title">Зимний Байкал</h3>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="https://vk.com/baikalmile" target="_blank">https://vk.com/baikalmile</a>
         </div>
         <img class="place__image" src="./images/place-winter-baikal.jpg" alt="Зимний Байкал">
@@ -204,7 +211,7 @@
       <article class="place">
         <h3 class="place__title">Карелия</h3>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
         </div>
         <img class="place__image" src="./images/place-karelia.jpg" alt="Карелия">
@@ -221,16 +228,14 @@
           </p>
         </div>
       </article>
-    </div>
+    </section>
 
     <section class="cover">
       <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__link">
         <div class="cover__content">
-          <div>
-            <h3 class="cover__title">До Байкала<br> «на собаках»</h3>
+            <h3 class="cover__title">До Байкала «на собаках»</h3>
             <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на
               электричках.</p>
-          </div>
         </div>
         <div class="cover__overlay"></div>
         <img src="./images/cover-trains.jpg" alt="Вокзал" class="cover__background">
@@ -258,7 +263,7 @@
         </li>
       </ul>
     </nav>
-    <p class="footer__copyright">© 2021. Aleksandr Lebedev</p>
+    <p class="footer__copyright">&copy; 2021. Aleksandr Lebedev</p>
   </footer>
 </body>
 

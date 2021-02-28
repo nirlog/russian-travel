@@ -1,4 +1,6 @@
 .header__lang {
   display: flex;
   padding-bottom: 5px;
+  list-style: none;
+  padding: 0;
 }
